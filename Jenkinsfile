@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'master',
-                url: ''
+                url: 'https://github.com/vibhag2005/SeleniumProject.git'
             }
         }
 
