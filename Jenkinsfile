@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'
+        maven 'maventest'
     }
 
     stages {
@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'master',
-                url: 'https://github.com/yourrepo/MyMavenSeleniumfirefox.git'
+                url: ''
             }
         }
 
